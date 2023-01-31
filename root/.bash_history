@@ -224,3 +224,564 @@ ls
 cd 0x01-git
 ls
 exit
+cd /root
+mkdir 0x02_vi
+ls
+cd 0x02_vi
+echo 'i'> inserting
+ls -l
+echo 'd'> cutting
+ls -l
+echo 'dd'> cutting
+ls
+ls -l
+echo 'p'> pasting
+ls -l
+echo 'u'> undoing
+ls -l
+echo ':q!'> exiting
+ls -l
+echo '0'> beginning_of_the_line
+ls -l
+echo '$'> end_of_the_line
+ls -l
+exit
+cd alx-zero_day
+git push
+git reflog
+git revert 4cab9d3
+ls
+cd 0x03-git
+exit
+cd /aalx-zero_day
+cd /alx-zero_day
+git pull
+cd 0x03-git
+echo "git pull"> up_to_date
+cd ..
+git add .
+git commit -m "How to be up to date in git"
+git push
+git merge update_script
+git status
+vi 0x03-git/bash/alx
+git add .
+git commit -m "How to be up to date in git"
+git push
+cd 0x03-git
+echo "~"> .gitignore
+ls
+cd ..
+git add .
+git commit -m "hide files with gitignore"
+git push
+exit
+cd alx-system_engineering-devops/0x00-shell_basics#
+cd alx-system_engineering-devops/0x00-shell_basics
+vi 14-copy_html
+chmod u+x 14-copy_html
+git add .
+git commit -m "14-copy_html"
+git push
+vi 100-lets_move
+chmod u+x 100-lets_move
+git add . 
+git commit -m "100-lets_move"
+git push 
+vi 101-clean_emacs
+chmod u+x 101-clean_emacs
+git add .
+git commit -m "101-clean_emacs"
+git push
+vi 102-tree
+chmod u+x 102-tree
+git add .
+git commit -m "102-tree"
+git push
+git reflog
+git revert b05d48d 
+vi 102-tree
+chmod u+x 102-tree
+git add .
+git commit -m "102-tree"
+git push
+102-tree
+help -mkdir
+help mkdir
+man mkdir
+vi 103-commas
+chmod u+x 103-commas
+git add .
+git commit -m "103-commas"
+git push 
+vi school.mgc
+chmod u+x school.mgc
+git add .
+git commit -m "school.mgc"
+git push
+vi school.mgc
+chmod u+x school.mgc
+git add .
+git commit -m "school.mgc"
+git push
+exit
+cd /alx-system_engineering-devops/0x00-shell_basics
+vi school.mgc
+file -C -m school
+ls
+git reflog
+git revert 5bccfc3 
+git add .
+git commit
+git revert 5bccfc3 
+git push
+git reverse git revert 5bccfc3 
+git revert 5bccfc3 
+git rrm school.mgc
+rm school.mgc
+exit
+cd /alx-system_engineering-devops/0x01-shell_permissions
+vi 0-iam_betty
+chmod u+x 0-iam_betty
+git add .
+git commit -m "updated 0-iam_betty"
+git push
+vi 0-iam_betty
+vi 1-who_am_i
+chmos u+x 1-who_am_i
+chmod u+x 1-who_am_i
+git add .
+git commit -m "1-who_am_i"
+git push
+./1-who_am_i
+/1-who_am_i
+man id
+man group
+vi 2-groups
+chmod x+u 2-groups
+chmod u+x 2-groups
+git add .
+git commit -m "2-groups" 
+git push
+man chown
+help chown
+man -k chown
+help chown
+info chown
+vi 3-new_owner
+chmod 3-new_owner
+chmod u+x 3-new_owner
+git add .
+git commit -m "3-new_owner"
+git push
+vi 3-new_owner
+chmod u+x 3-new_owner
+git add .
+git commit -m "updated 3-new_owner"
+git push
+vi 3-new_owner
+chomod u+x 3-new_owner
+git add .
+git commit -m "3-new_owner correction"
+git push
+vi 4-empty
+ls
+chmod u+x 4-empty
+git add .
+git commit -m "4-empty"
+git push
+vi 5-execute
+chmod u+x 5-execute
+git add .
+git commit -m "5-execute"
+git push
+ls
+cat 
+file 5-execute
+git reflog
+git revert 0b98407
+nano 5-execute
+vi 5-execute
+chmod u+x #!/bin/bash
+chmod u+x 5-execute
+git add .
+git commit -m "5-execute"
+git push
+vi 6-multiple_permissions
+chmod u+x 6-multiple_permissions
+git add .
+git commit -m "6-multiple_permissions"
+git push
+vi 6-multiple_permissions
+vi 7-everybody
+chmod u+x #!/bin/bash
+chmod u+x 7-everybody
+git add .
+git commit -m "7-everybody"
+git push 
+vi 8-James_Bond
+chmod u+x 8-James_Bond
+git add .
+git commit -m "8-James_Bond"
+git push
+vi 9-John_Doe
+chmod u+x 9-John_Doe
+git add .
+git commit -m "9-John_Doe"
+git push
+vi 10-mirror_permissions
+chmod u+x 10-mirror_permissions
+git add .
+git commit -m "10-mirror_permissions"
+git push
+vi 11-directories_permissions
+chmod u+x 11-directories_permissions
+git add .
+git commit -m "11-directories_permissions"
+git push
+vi 12-directory_permissions
+chmod u+x 12-directory_permissions
+git add .
+git commit -m "12-directory_permissions"
+git push
+vi 12-directory_permissions
+chmod u+x 12-directory_permissions
+git add .
+git commit _m "corrected 12-directory_permissions"
+git commit -m "12-directory_permissions"
+git push
+exit
+cd /alx-system_engineering-devops/0x01-shell_permissions
+vi 13-change_group
+chmod u+x 13-change_group
+git add .
+git commit -m "13-change_group"
+git push
+vi 100-change_owner_and_group
+chmod u+x 100-change_owner_and_group
+git add .
+git commit -m "100-change_owner_and_group"
+git push
+man chown -h
+vi 101-symbolic_link_permissions
+chmod u+x 101-symbolic_link_permissions
+git add .
+git commit -m 101-symbolic_link_permissions
+ls
+git push
+vi 102-if_only
+chmod u+x 102-if_only
+git add .
+git commit -m "102-if_only"
+git push
+vi 103-Star_Wars
+chmod u+x
+chmod u+x 103-Star_Wars
+git add .
+git commit -m "103-Star_Wars"
+git push
+man telnet towel.blinkenlights.nl
+man telnet
+man yum
+man yum install
+exit 
+cd alx-system_engineering-devops
+mkdir 0x02-shell_redirections
+vi 0-hello_world
+chmod u+x 0-hello_world
+git add .
+git commit -m "0-hello_world"
+git push
+./0-hello_world
+git reflog
+git revert 6d30eac
+ls -l
+ls 0x02-shell_redirections
+cd 0x02-shell_redirections
+vi 0-hello_world
+chmod u+x 0-hello_world
+./0-hello_world
+vi 0-hello_world
+chmod u+x 0-hello_world
+git add .
+git commit -m "0-hello_world"
+git push
+man echo 
+echo --help
+--help echo
+chmod +x le interpretation of backslash escapes (default)
+cat le interpretation of backslash escapes (default)
+cat 0-hello_world
+chmod -v +x 0-hello_world
+./0-hello_world
+chmod u+x 
+chmod u+x 0-hello_world
+./0-hello_world
+cd -
+rm -r 0x02-shell_redirections
+cd
+cd alx-system_engineering-devops
+ls
+cd alx-system_engineering-devops
+exit
+cd /alx-system_engineering-devops/0x02-shell_redirections
+ls
+cat 7-file
+vi 7-file
+chmod u+x 7-file
+git add .
+git commit -m "7-file"
+git push
+./7-file
+cat 7-file
+ls
+vi 7-file
+chmod x+u 7-file
+chmod u+x
+chmod u+x 7-file
+git add .
+git commit -m "another 7-file"
+git push
+vi 7-file
+chmod u+x 7-file
+git add .
+git commit -m "7-file"
+git push
+vi 8-cwd_state
+chmod u+x 8-cwd_state
+git add .
+git commit -m "8-cwd_state"
+git push
+vi 9-duplicate_last_line
+chmod u+x 9-duplicate_last_line
+git add .
+git commit -m "9-duplicate_last_line"
+fit push
+git push
+vi 10-no_more_js
+chmod u+x 10-no_more_js
+git add .
+git commit-m 10-no_more_js
+git commit -m 10-no_more_js
+git push
+exit
+cd /alx-system_engineering-devops/0x02-shell_redirections
+vi 11-directories
+chmod u+x 11-directories
+git add .
+git commit -m "11-directories"
+git push
+vi 11-directories
+chmod u+x 11-directories
+git add .
+git -m commit "11-directories"
+git commit -m "11-directories"
+find -name ".*" -type f -print
+tree -a
+man tree
+ls -a |wc -1
+ls -a | wc -l
+vi 11-directories
+chmod u+x 11-directories
+./11-directories
+git add .
+git -m commit 11-directories
+git commit -m 11-directories
+git push
+vi 12-newest_files
+chmod u+x 12-newest_files
+git add .
+git commit -m "12-newest_files"
+git push
+vi 13-unique
+chmod u+x 13-unique
+git add .
+git commit -m "13-unique"
+git push
+vi 14-findthatword
+chmod u+x 14-findthatword
+git add .
+git commit -m "14-findthatword"
+git push
+vi 15-countthatword
+chmod u+x 15-countthatword
+git add .
+git commit -m "15-countthatword"
+git push
+vi 16-whatsnext
+chmod u+x 16-whatsnext
+git add .
+git commit -m "16-whatsnext"
+git push
+vi 
+vi 17-hidethisword
+chmod u+x #!/bin/bash
+grep -v bin /etc/passwd
+chmod u+x #!/bin/bash
+grep -v bin /etc/passwd
+chmod u+x 17-hidethisword
+git add .
+git commit -m "17-hidethisword"
+git push
+vi 18-letteronly
+chmod u+x 18-letteronly
+git add .
+git commit -m "18-letteronly"
+git push
+vi 19-AZ
+chmod u+x 19-AZ
+git add .
+git commit -m "19-AZ"
+git push
+vi 20-hiago
+chmod u+x 20-hiago
+git add .
+git commit -m "20-hiago"
+git push
+vi 21-reverse
+chmod u+x 21-reverse
+git add .
+git commit -m "21-reverse"
+git push
+exit
+cd /alx-system_engineering-devops/0x03-shell_variables_expansions
+vi 2-path
+chmod u+x 2-path
+git add .
+git commit -m "2-path"
+git push
+vi3-paths
+vi 3-paths
+chmod u+x #!/bin/bash
+chmod u+x 3-paths
+git add .
+git commit -m "3-paths"
+git push
+vi 4-global_variables
+chmod u+x 4-global_variables
+git add .
+git commit -m "4-global_variables"
+git push
+vi 5-local_variables
+chmod u+x 5-local_variables
+git add .
+git commit -m "5-local_variables"
+git push
+vi 6-create_local_variable
+chmod u+x 6-create_local_variable
+git add .
+git commit -m "
+git commit -m 
+git commit -m "6-create_local_variable"
+git push
+vi 6-create_local_variable
+chmod u+x 6-create_local_variable
+git add .
+git commit -m "6-create_local_variable"
+git push
+vi 6-create_local_variable
+chmod u+x 6-create_local_variable
+git add .
+git commit -m "6-create_local_variable"
+git push
+vi 7-create_global_variable
+chmod u+x 7-create_global_variable
+git add .
+git commit -m "7-create_global_variable"
+git push
+vi 8-true_knowledge
+git add .
+chmod u+x 8-true_knowledge
+git add .
+git commit -m "8-true_knowledge"
+git push
+vi 9-divide_and_rule
+chmod u+x 9-divide_and_rule
+got add .
+git add .
+git commit -m "9-divide_and_rule"
+git push
+vi 10-love_exponent_breath
+chmod u+x 10-love_exponent_breath
+git add .
+git commit -m "10-love_exponent_breath"
+git push
+vi 11-binary_to_decimal
+chmod u+x 11-binary_to_decimal
+git add .
+git commit -m 
+git commit -m "11-binary_to_decimal"
+git push
+vi 12-combinations
+chmod u+x 12-combinations
+git add .
+git commit -m 
+git commit -M "12-combinations"
+git commit -m "12-combinations"
+git push
+vi 13-print_float
+chmod u+x 13-print_float
+git add .
+git commit -m "13-print_float"
+git push
+vi100-decimal_to_hexadecimal
+vi 100-decimal_to_hexadecimal
+chmod u+x 100-decimal_to_hexadecimal
+git add .
+git commit -m "100-decimal_to_hexadecimal"
+git push
+vi 101-rot13
+chmod u+x 101-rot13
+git add .
+git commit -m "101-rot13"
+git push
+vi 102-odd
+chmod u+x #!/bin/bash
+chmod u+x 102-odd
+git add .
+git commit -m "102-odd"
+git push
+vi 103-water_and_stir
+chmod u+x 103-water_and_stir
+git add .
+git commit -m "103-water_and_stir"
+git push
+git reflog
+git revert 7921a08
+vi 103-water_and_stir
+chmod u+x 103-water_and_stir
+git add .
+git commit -m "103-water_and_stir"
+git push
+exit
+cd alx-system_engineering-devops/0x02-shell_redirections/
+ls
+vi 22-users_and_homes
+chmod u+x 22-users_and_homes
+git add .
+git commit -m "22-users_and_homes"
+git push
+vi 100-empty_casks
+chmod u+x 100-empty_casks
+git add .
+git add .="ga"
+git commit -m "100-empty_casks"
+git push
+man less
+vi 101-gifs
+git add .
+git commit -m "101-gifs"
+git push
+./101-gifs
+chmod u+x 101-gifs
+add .
+git add .
+git commit -m 101-gifs
+git push
+./101-gifs
+vi 101-gifs
+chmod u+x 101-gifs
+git add .
+git commit -m 101-gifs
+git push
+exit
